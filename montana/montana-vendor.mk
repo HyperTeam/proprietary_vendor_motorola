@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/firmware/opalum.tx.ext.config.3:$(TARGET_COPY_OUT_VENDOR)/firmware/opalum.tx.ext.config.3 \
     vendor/motorola/montana/proprietary/vendor/firmware/synaptics-inx-s3603r-17042001-27111d-montana.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-inx-s3603r-17042001-27111d-montana.tdat \
     vendor/motorola/montana/proprietary/vendor/firmware/synaptics-tianma-s3603r-17041102-27111d-montana.tdat:$(TARGET_COPY_OUT_VENDOR)/firmware/synaptics-tianma-s3603r-17041102-27111d-montana.tdat \
+    vendor/motorola/montana/proprietary/etc/permissions/privapp-permissions-com.motorola.cameraone.xml:system/etc/permissions/privapp-permissions-com.motorola.cameraone.xml \
     vendor/motorola/montana/proprietary/vendor/lib/lib_mot_app6_metadata.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_app6_metadata.so \
     vendor/motorola/montana/proprietary/vendor/lib/lib_motsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_motsensorlistener.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmot-qc-fd-offline.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot-qc-fd-offline.so \
@@ -470,3 +471,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libtrueportrait.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtrueportrait.so \
     vendor/motorola/montana/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/motorola/montana/proprietary/vendor/lib/libzxingcpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzxingcpp.so
+
+PRODUCT_PACKAGES += \
+    MotCamera
