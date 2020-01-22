@@ -473,4 +473,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libzxingcpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzxingcpp.so
 
 PRODUCT_PACKAGES += \
+    MotoSignatureApp \
     MotCamera
