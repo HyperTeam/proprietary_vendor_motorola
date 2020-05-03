@@ -220,15 +220,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/hannah/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0-halimpl.so \
     vendor/motorola/hannah/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglSubDriverAndroid.so \
     vendor/motorola/hannah/proprietary/vendor/lib/egl/eglsubAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/eglsubAndroid.so \
-    vendor/motorola/hannah/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib/egl/libEGL_adreno_8917.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno_8917.so \
+    vendor/motorola/hannah/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib/egl/libESXEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libESXEGL_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib/egl/libESXGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libESXGLESv1_CM_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib/egl/libESXGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libESXGLESv2_adreno.so \
-    vendor/motorola/hannah/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib/egl/libGLESv1_CM_adreno_8917.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno_8917.so \
-    vendor/motorola/hannah/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
+    vendor/motorola/hannah/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv1_CM_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib/egl/libGLESv2_adreno_8917.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno_8917.so \
+    vendor/motorola/hannah/proprietary/vendor/lib/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLESv2_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
     vendor/motorola/hannah/proprietary/vendor/lib/egl/libRBEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libRBEGL_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib/egl/libRBGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libRBGLESv1_CM_adreno.so \
@@ -1033,15 +1033,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/hannah/proprietary/vendor/lib64/com.quicinc.cne.server@2.2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.quicinc.cne.server@2.2.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/egl/eglSubDriverAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglSubDriverAndroid.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/egl/eglsubAndroid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/eglsubAndroid.so \
-    vendor/motorola/hannah/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/egl/libEGL_adreno_8917.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno_8917.so \
+    vendor/motorola/hannah/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/egl/libESXEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libESXEGL_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/egl/libESXGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libESXGLESv1_CM_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/egl/libESXGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libESXGLESv2_adreno.so \
-    vendor/motorola/hannah/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno_8917.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno_8917.so \
-    vendor/motorola/hannah/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so \
+    vendor/motorola/hannah/proprietary/vendor/lib64/egl/libGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/egl/libGLESv2_adreno_8917.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno_8917.so \
+    vendor/motorola/hannah/proprietary/vendor/lib64/egl/libGLESv2_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv2_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libQTapGLES.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/egl/libRBEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libRBEGL_adreno.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/egl/libRBGLESv1_CM_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libRBGLESv1_CM_adreno.so \
@@ -1179,6 +1179,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/hannah/proprietary/vendor/lib64/libsecureui_svcsock.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecureui_svcsock.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor1.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_reg.so \
+    vendor/motorola/hannah/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/libsettings.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsettings.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/motorola/hannah/proprietary/vendor/lib64/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsubsystem_control.so \
