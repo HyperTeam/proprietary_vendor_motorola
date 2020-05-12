@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter hannah,$(TARGET_DEVICE)),)
+ifneq ($(filter hannah james,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libsdm-disp-vndapis
