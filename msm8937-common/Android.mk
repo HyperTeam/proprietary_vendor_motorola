@@ -16,6 +16,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter hannah james montana,$(TARGET_DEVICE)),)
+ifneq ($(filter cedric hannah james montana,$(TARGET_DEVICE)),)
 
 endif
