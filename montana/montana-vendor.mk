@@ -42,6 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_inx_1080p_521.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_inx_1080p_521.xml \
     vendor/motorola/montana/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_521.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_vid_tianma_1080p_521.xml \
     vendor/motorola/montana/proprietary/vendor/lib/libpn548ad_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn548ad_fw.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
     vendor/motorola/montana/proprietary/vendor/framework/com.fingerprints.extension.jar:$(TARGET_COPY_OUT_VENDOR)/framework/com.fingerprints.extension.jar \
     vendor/motorola/montana/proprietary/vendor/lib/com.fingerprints.extension@1.0_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.fingerprints.extension@1.0_vendor.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
@@ -57,6 +58,20 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_postproc.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_snapshot.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695f60_snapshot_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_ov5695_l5695f60_snapshot_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_4m_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_4m_cpp_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_common.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_cpp_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_cpp_liveshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_cpp_preview.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_cpp_snapshot.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_cpp_video.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_default_preview_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_default_video_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_hfr_120.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_hfr_120_3a.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_postproc.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_preview.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_snapshot.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_common.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_hfr_120.so \
     vendor/motorola/montana/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_liveshot.so \
@@ -79,6 +94,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libllvd_smore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libllvd_smore.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_cac3_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac3_lib.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov5695.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k3p8sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3p8sp.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k3p8sp_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3p8sp_eeprom.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_ov5695_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5695_eeprom.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_s5k3p3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3.so \
