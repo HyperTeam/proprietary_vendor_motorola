@@ -100,12 +100,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/hannah/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/motorola/hannah/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/motorola/hannah/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
-    vendor/motorola/hannah/proprietary/vendor/lib/libmmcamera_l12aa00_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_l12aa00_eeprom.so \
     vendor/motorola/hannah/proprietary/vendor/lib/libmmcamera_mot_ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov12a10.so \
     vendor/motorola/hannah/proprietary/vendor/lib/libmmcamera_mot_ov5675.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov5675.so \
-    vendor/motorola/hannah/proprietary/vendor/lib/libmmcamera_ov5675_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5675_eeprom.so \
     vendor/motorola/hannah/proprietary/vendor/lib/libmmcamera_s5k4h7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h7.so \
-    vendor/motorola/hannah/proprietary/vendor/lib/libmmcamera_s5k4h7_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h7_eeprom.so \
     vendor/motorola/hannah/proprietary/vendor/lib/libmot_lux_standardization.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmot_lux_standardization.so \
     vendor/motorola/hannah/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/motorola/hannah/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
