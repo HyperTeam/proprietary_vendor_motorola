@@ -95,8 +95,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_cac3_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cac3_lib.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_ov5695.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_ov5695.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k3p8sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3p8sp.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_mot_s5k3p8sp_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_mot_s5k3p8sp_eeprom.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_ov5695_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5695_eeprom.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
     vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_s5k3p3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3.so \
+    vendor/motorola/montana/proprietary/vendor/lib/libmmcamera_s5k3p3_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3_eeprom.so \
     vendor/motorola/montana/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/motorola/montana/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/motorola/montana/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
