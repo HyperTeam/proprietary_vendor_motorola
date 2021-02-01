@@ -1,4 +1,4 @@
-# Copyright (C) 2019-2020 The LineageOS Project
+# Copyright (C) 2019-2021 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,9 +18,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/motorola/james
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/james/proprietary/lib/libdualcameraddm.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdualcameraddm.so \
-    vendor/motorola/james/proprietary/lib/libjni_dualcamera.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libjni_dualcamera.so \
-    vendor/motorola/james/proprietary/lib/libqvrcamera_client.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libqvrcamera_client.so \
     vendor/motorola/james/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-ets \
     vendor/motorola/james/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/motorola/james/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
@@ -37,6 +34,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/james/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/motorola/james/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
     vendor/motorola/james/proprietary/vendor/etc/init/init.ets.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.ets.rc \
+    vendor/motorola/james/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_video_djn_720p_520.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_video_djn_720p_520.xml \
+    vendor/motorola/james/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_video_txd_720p_520.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_video_txd_720p_520.xml \
+    vendor/motorola/james/proprietary/vendor/firmware/focaltech-txd-ft5436-14-0001-james.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/focaltech-txd-ft5436-14-0001-james.bin \
+    vendor/motorola/james/proprietary/vendor/firmware/goodix-djn-GT917D-6509-0001-james.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-djn-GT917D-6509-0001-james.bin \
     vendor/motorola/james/proprietary/vendor/lib/hw/camera.msm8937.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.msm8937.so \
     vendor/motorola/james/proprietary/vendor/lib/libS5k2l7Pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libS5k2l7Pdaf.so \
     vendor/motorola/james/proprietary/vendor/lib/libS5k2l7PdafCamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libS5k2l7PdafCamif.so \
@@ -44,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/james/proprietary/vendor/lib/libSonyDualPDLibrary.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyDualPDLibrary.so \
     vendor/motorola/james/proprietary/vendor/lib/libSonyDualPDParam.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSonyDualPDParam.so \
     vendor/motorola/james/proprietary/vendor/lib/lib_mot_led_calibration.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_mot_led_calibration.so \
-    vendor/motorola/james/proprietary/vendor/lib/lib_motsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_motsensorlistener.so \
     vendor/motorola/james/proprietary/vendor/lib/libactuator_dw9714p.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714p.so \
     vendor/motorola/james/proprietary/vendor/lib/libactuator_dw9714p_byd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714p_byd.so \
     vendor/motorola/james/proprietary/vendor/lib/libactuator_dw9718s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9718s.so \
@@ -378,19 +378,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_postproc.so \
     vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_preview.so \
     vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k3p8sp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k3p8sp_snapshot.so \
-    vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h7_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_common.so \
-    vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h7_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_cpp_hfr_120.so \
-    vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h7_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_cpp_liveshot.so \
-    vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h7_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_cpp_preview.so \
-    vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h7_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_cpp_snapshot.so \
-    vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h7_cpp_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_cpp_video_full.so \
-    vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h7_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_hfr_120.so \
-    vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h7_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_hfr_120_3a.so \
-    vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h7_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_postproc.so \
-    vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h7_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_snapshot.so \
-    vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h7_video_full.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_video_full.so \
-    vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h7_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_zsl_preview_3a.so \
-    vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h7_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h7_zsl_video_3a.so \
     vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h8_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h8_common.so \
     vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h8_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h8_cpp_hfr_120.so \
     vendor/motorola/james/proprietary/vendor/lib/libchromatix_mot_s5k4h8_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_mot_s5k4h8_cpp_liveshot.so \
@@ -547,7 +534,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/james/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/motorola/james/proprietary/vendor/lib/libflash_sky81298.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_sky81298.so \
     vendor/motorola/james/proprietary/vendor/lib/libflash_wd3100.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_wd3100.so \
-    vendor/motorola/james/proprietary/vendor/lib/libgralloc1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgralloc1.so \
     vendor/motorola/james/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/motorola/james/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/motorola/james/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
@@ -673,7 +659,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/james/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/motorola/james/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
     vendor/motorola/james/proprietary/vendor/lib/libmmcamera_ubifocus_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ubifocus_lib.so \
-    vendor/motorola/james/proprietary/vendor/lib/libmmcamera_vstab_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_vstab_module.so \
     vendor/motorola/james/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
     vendor/motorola/james/proprietary/vendor/lib/libmmjpeg_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg_interface.so \
     vendor/motorola/james/proprietary/vendor/lib/libmmqjpeg_codec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmqjpeg_codec.so \
@@ -698,7 +683,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/james/proprietary/vendor/lib/libzxingcpp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libzxingcpp.so \
     vendor/motorola/james/proprietary/vendor/lib/rfsa/adsp/tas2560_TI.bin:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/tas2560_TI.bin \
     vendor/motorola/james/proprietary/vendor/lib/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensor_calibrate.so \
-    vendor/motorola/james/proprietary/vendor/lib/sensors.hal.tof.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.hal.tof.so \
     vendor/motorola/james/proprietary/vendor/lib/sensors.rp.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.rp.so \
     vendor/motorola/james/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
     vendor/motorola/james/proprietary/vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
